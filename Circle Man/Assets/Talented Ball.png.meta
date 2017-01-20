@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: 19080346431604571bf8d0db09bef369
+timeCreated: 1484861448
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: Right eye
+    21300004: Right eye white
+    21300006: Left eye
+    21300008: Left eye white
+    21300010: Left hand
+    21300012: Right foot
+    21300014: Left foot
+    21300016: Right hand
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 451
+        width: 479
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.5, y: -218.5}
+        - {x: 129.5, y: -213.5}
+        - {x: 153.5, y: -197.5}
+        - {x: 167.5, y: -186.5}
+        - {x: 177.5, y: -174.5}
+        - {x: 183.5, y: -176.5}
+        - {x: 195.5, y: -176.5}
+        - {x: 203.5, y: -173.5}
+        - {x: 211.5, y: -165.5}
+        - {x: 214.5, y: -157.5}
+        - {x: 216.5, y: -149.5}
+        - {x: 211.5, y: -131.5}
+        - {x: 221.5, y: -110.5}
+        - {x: 227.5, y: -95.5}
+        - {x: 235.5, y: -72.5}
+        - {x: 237.5, y: -64.5}
+        - {x: 239.5, y: -52.5}
+        - {x: 239.5, y: 26.5}
+        - {x: 238.5, y: 32.5}
+        - {x: 232.5, y: 58.5}
+        - {x: 224.5, y: 80.5}
+        - {x: 215.5, y: 99.5}
+        - {x: 199.5, y: 127.5}
+        - {x: 182.5, y: 147.5}
+        - {x: 151.5, y: 177.5}
+        - {x: 138.5, y: 185.5}
+        - {x: 139.5, y: 189.5}
+        - {x: 140.5, y: 201.5}
+        - {x: 139.5, y: 210.5}
+        - {x: 129.5, y: 222.5}
+        - {x: 119.5, y: 227.5}
+        - {x: 104.5, y: 233.5}
+        - {x: 86.5, y: 239.5}
+        - {x: 77.5, y: 240.5}
+        - {x: 56.5, y: 243.5}
+        - {x: -14.5, y: 243.5}
+        - {x: -44.5, y: 239.5}
+        - {x: -64.5, y: 234.5}
+        - {x: -91.5, y: 223.5}
+        - {x: -128.5, y: 205.5}
+        - {x: -143.5, y: 196.5}
+        - {x: -165.5, y: 179.5}
+        - {x: -185.5, y: 162.5}
+        - {x: -209.5, y: 136.5}
+        - {x: -223.5, y: 117.5}
+        - {x: -236.5, y: 93.5}
+        - {x: -239.5, y: 86.5}
+        - {x: -239.5, y: 60.5}
+        - {x: -230.5, y: 51.5}
+        - {x: -225.5, y: 49.5}
+        - {x: -224.5, y: 42.5}
+        - {x: -228.5, y: 18.5}
+        - {x: -230.5, y: 2.5}
+        - {x: -231.5, y: -11.5}
+        - {x: -230.5, y: -30.5}
+        - {x: -227.5, y: -48.5}
+        - {x: -222.5, y: -77.5}
+        - {x: -212.5, y: -104.5}
+        - {x: -199.5, y: -128.5}
+        - {x: -188.5, y: -143.5}
+        - {x: -176.5, y: -159.5}
+        - {x: -166.5, y: -170.5}
+        - {x: -143.5, y: -192.5}
+        - {x: -119.5, y: -210.5}
+        - {x: -104.5, y: -219.5}
+        - {x: -76.5, y: -230.5}
+        - {x: -62.5, y: -235.5}
+        - {x: -38.5, y: -241.5}
+        - {x: -27.5, y: -243.5}
+        - {x: 42.5, y: -243.5}
+        - {x: 64.5, y: -239.5}
+        - {x: 76.5, y: -235.5}
+        - {x: 90.5, y: -230.5}
+    - name: Right eye
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 823
+        width: 90
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 72.5}
+        - {x: -45, y: 37.5}
+        - {x: -45, y: -49.5}
+        - {x: -28, y: -72.5}
+        - {x: 28, y: -72.5}
+        - {x: 45, y: -52.5}
+        - {x: 45, y: 40.5}
+        - {x: 34, y: 72.5}
+    - name: Right eye white
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 860
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31.5}
+        - {x: -19, y: 22.5}
+        - {x: -19, y: -17.5}
+        - {x: -10, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 19, y: -29.5}
+        - {x: 19, y: 29.5}
+        - {x: 13, y: 31.5}
+    - name: Left eye
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 647
+        width: 73
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 56.5}
+        - {x: -36.5, y: 52.5}
+        - {x: -36.5, y: -53.5}
+        - {x: -32.5, y: -56.5}
+        - {x: 26.5, y: -56.5}
+        - {x: 36.5, y: -32.5}
+        - {x: 36.5, y: 38.5}
+        - {x: 23.5, y: 56.5}
+    - name: Left eye white
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 698
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 24}
+        - {x: -16, y: 14}
+        - {x: -16, y: -12}
+        - {x: -7, y: -24}
+        - {x: 10, y: -24}
+        - {x: 16, y: -20}
+        - {x: 16, y: 19}
+        - {x: 10, y: 24}
+    - name: Left hand
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 366
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 50}
+        - {x: -48.5, y: -44}
+        - {x: -34.5, y: -50}
+        - {x: 41.5, y: -50}
+        - {x: 48.5, y: -38}
+        - {x: 48.5, y: 50}
+    - name: Right foot
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 159
+        width: 208
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 41.5}
+        - {x: -28, y: 41.5}
+        - {x: -81, y: 33.5}
+        - {x: -104, y: -11.5}
+        - {x: -104, y: -42.5}
+        - {x: 104, y: -42.5}
+        - {x: 104, y: -13.5}
+        - {x: 84, y: 29.5}
+    - name: Left foot
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 160
+        width: 193
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: 38.5}
+        - {x: -53.5, y: 38.5}
+        - {x: -96.5, y: 5.5}
+        - {x: -96.5, y: -38.5}
+        - {x: 94.5, y: -38.5}
+        - {x: 96.5, y: -35.5}
+        - {x: 96.5, y: -8.5}
+        - {x: 71.5, y: 34.5}
+    - name: Right hand
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 164
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 50.5}
+        - {x: -48.5, y: 46.5}
+        - {x: -48.5, y: -42.5}
+        - {x: -30.5, y: -50.5}
+        - {x: 26.5, y: -50.5}
+        - {x: 36.5, y: -49.5}
+        - {x: 48.5, y: -30.5}
+        - {x: 48.5, y: 44.5}
+        - {x: 30.5, y: 50.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

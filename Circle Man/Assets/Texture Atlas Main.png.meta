@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 497708588cef3498a8a736b6974073ae
+timeCreated: 1484867569
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bubbles
+    21300002: Gress
+    21300004: Punji sticks
+    21300006: Health pack
+    21300008: Water trap
+    21300010: Gress 2
+    21300012: Start
+    21300014: Cannon
+    21300016: Jump pad
+    21300018: Upper cave
+    21300020: Platform
+    21300022: Lower cave
+    21300024: Tree
+    21300026: Tube
+    21300028: Bad fish
+    21300030: Blue rocks
+    21300032: Red saw
+    21300034: Dirt full
+    21300036: Blue saw
+    21300038: Dirt mid
+    21300040: microphone
+    21300042: Upper cave piece 2
+    21300044: Upper cave piece
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bubbles
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1833
+        width: 72
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 49}
+        - {x: 13, y: 53}
+        - {x: -31, y: 53}
+        - {x: -35, y: 44}
+        - {x: -35, y: -53}
+        - {x: 23, y: -53}
+        - {x: 36, y: -25}
+        - {x: 36, y: 42}
+    - name: Gress
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1856
+        width: 368
+        height: 140
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 307, y: 99}
+        - {x: 246, y: 135}
+        - {x: 231, y: 140}
+        - {x: 149, y: 140}
+        - {x: 115, y: 129}
+        - {x: 75, y: 108}
+        - {x: 54, y: 98}
+        - {x: 3, y: 76}
+        - {x: 0, y: 73}
+        - {x: 0, y: 0}
+        - {x: 368, y: 0}
+        - {x: 368, y: 74}
+        - {x: 362, y: 77}
+    - name: Punji sticks
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1637
+        width: 368
+        height: 369
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 350, y: 359}
+        - {x: 341, y: 354}
+        - {x: 338, y: 369}
+        - {x: 322, y: 369}
+        - {x: 315, y: 339}
+        - {x: 317, y: 187}
+        - {x: 300, y: 296}
+        - {x: 298, y: 304}
+        - {x: 296, y: 318}
+        - {x: 291, y: 320}
+        - {x: 289, y: 317}
+        - {x: 283, y: 292}
+        - {x: 273, y: 188}
+        - {x: 273, y: 317}
+        - {x: 263, y: 337}
+        - {x: 253, y: 333}
+        - {x: 244, y: 327}
+        - {x: 235, y: 363}
+        - {x: 223, y: 363}
+        - {x: 191, y: 312}
+        - {x: 153, y: 318}
+        - {x: 148, y: 311}
+        - {x: 138, y: 212}
+        - {x: 137, y: 369}
+        - {x: 133, y: 369}
+        - {x: 124, y: 352}
+        - {x: 120, y: 325}
+        - {x: 104, y: 310}
+        - {x: 100, y: 343}
+        - {x: 67, y: 350}
+        - {x: 72, y: 363}
+        - {x: 22, y: 354}
+        - {x: 16, y: 346}
+        - {x: 11, y: 320}
+        - {x: 0, y: 196}
+        - {x: 0, y: 0}
+        - {x: 368, y: 0}
+        - {x: 368, y: 196}
+        - {x: 357, y: 337}
+    - name: Health pack
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1815
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 60.5}
+        - {x: -60.5, y: -60.5}
+        - {x: 60.5, y: -60.5}
+        - {x: 60.5, y: 60.5}
+    - name: Water trap
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1648
+        width: 368
+        height: 372
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 372}
+        - {x: 0, y: 0}
+        - {x: 368, y: 0}
+        - {x: 368, y: 372}
+    - name: Gress 2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1656
+        width: 368
+        height: 129
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 368, y: 64.5}
+        - {x: 0, y: 64.5}
+        - {x: 0, y: -64.5}
+        - {x: 368, y: -64.5}
+    - name: Start
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1576
+        width: 130
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 62}
+        - {x: -18, y: 62}
+        - {x: -65, y: 21}
+        - {x: -65, y: 3}
+        - {x: -53, y: -62}
+        - {x: 43, y: -62}
+        - {x: 65, y: -4}
+        - {x: 65, y: 23}
+    - name: Cannon
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1664
+        width: 293
+        height: 219
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 185, y: 0}
+        - {x: 241, y: 0}
+        - {x: 253, y: 12}
+        - {x: 267, y: 44}
+        - {x: 262, y: 70}
+        - {x: 239, y: 110}
+        - {x: 293, y: 124}
+        - {x: 293, y: 203}
+        - {x: 120, y: 219}
+        - {x: 29, y: 219}
+        - {x: 17, y: 214}
+        - {x: 0, y: 187}
+        - {x: 0, y: 136}
+        - {x: 18, y: 110}
+        - {x: 0, y: 85}
+        - {x: 0, y: 10}
+        - {x: 1, y: 6}
+        - {x: 18, y: 0}
+        - {x: 65, y: 0}
+        - {x: 92, y: 9}
+        - {x: 102, y: 39}
+        - {x: 158, y: 38}
+        - {x: 168, y: 3}
+    - name: Jump pad
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1541
+        width: 370
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 92}
+        - {x: 0, y: 0}
+        - {x: 370, y: 0}
+        - {x: 370, y: 92}
+    - name: Upper cave
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1126
+        width: 1236
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1204, y: -296}
+        - {x: 1221, y: -193}
+        - {x: 1233, y: -112}
+        - {x: 1236, y: -89}
+        - {x: 1236, y: -32}
+        - {x: 1229, y: -13}
+        - {x: 1212, y: -3}
+        - {x: 1191, y: 0}
+        - {x: 982, y: 0}
+        - {x: 982, y: -1}
+        - {x: 802, y: -1}
+        - {x: 801, y: 0}
+        - {x: 31, y: 0}
+        - {x: 14, y: -4}
+        - {x: 2, y: -13}
+        - {x: 0, y: -19}
+        - {x: 0, y: -55}
+        - {x: 2, y: -63}
+        - {x: 5, y: -78}
+        - {x: 17, y: -115}
+        - {x: 46, y: -191}
+        - {x: 71, y: -275}
+        - {x: 80, y: -298}
+        - {x: 89, y: -304}
+        - {x: 104, y: -310}
+        - {x: 110, y: -331}
+        - {x: 116, y: -340}
+        - {x: 123, y: -337}
+        - {x: 138, y: -282}
+        - {x: 162, y: -261}
+        - {x: 169, y: -267}
+        - {x: 195, y: -318}
+        - {x: 206, y: -328}
+        - {x: 211, y: -329}
+        - {x: 222, y: -301}
+        - {x: 229, y: -238}
+        - {x: 241, y: -201}
+        - {x: 256, y: -190}
+        - {x: 268, y: -191}
+        - {x: 287, y: -204}
+        - {x: 305, y: -230}
+        - {x: 326, y: -292}
+        - {x: 330, y: -303}
+        - {x: 341, y: -299}
+        - {x: 349, y: -277}
+        - {x: 361, y: -299}
+        - {x: 369, y: -311}
+        - {x: 377, y: -313}
+        - {x: 382, y: -313}
+        - {x: 390, y: -302}
+        - {x: 409, y: -257}
+        - {x: 419, y: -245}
+        - {x: 448, y: -279}
+        - {x: 461, y: -289}
+        - {x: 480, y: -279}
+        - {x: 496, y: -259}
+        - {x: 519, y: -228}
+        - {x: 566, y: -191}
+        - {x: 577, y: -189}
+        - {x: 587, y: -184}
+        - {x: 615, y: -186}
+        - {x: 633, y: -191}
+        - {x: 647, y: -207}
+        - {x: 666, y: -260}
+        - {x: 674, y: -280}
+        - {x: 695, y: -307}
+        - {x: 706, y: -307}
+        - {x: 714, y: -295}
+        - {x: 716, y: -274}
+        - {x: 717, y: -230}
+        - {x: 718, y: -185}
+        - {x: 720, y: -123}
+        - {x: 731, y: -253}
+        - {x: 739, y: -271}
+        - {x: 746, y: -278}
+        - {x: 758, y: -275}
+        - {x: 764, y: -263}
+        - {x: 780, y: -184}
+        - {x: 801, y: -155}
+        - {x: 826, y: -159}
+        - {x: 844, y: -190}
+        - {x: 873, y: -268}
+        - {x: 881, y: -278}
+        - {x: 889, y: -278}
+        - {x: 895, y: -268}
+        - {x: 910, y: -184}
+        - {x: 926, y: -146}
+        - {x: 945, y: -151}
+        - {x: 957, y: -179}
+        - {x: 960, y: -198}
+        - {x: 967, y: -223}
+        - {x: 980, y: -303}
+        - {x: 991, y: -356}
+        - {x: 999, y: -364}
+        - {x: 1003, y: -364}
+        - {x: 1009, y: -355}
+        - {x: 1020, y: -315}
+        - {x: 1041, y: -311}
+        - {x: 1047, y: -299}
+        - {x: 1054, y: -276}
+        - {x: 1071, y: -205}
+        - {x: 1080, y: -176}
+        - {x: 1088, y: -159}
+        - {x: 1107, y: -156}
+        - {x: 1116, y: -180}
+        - {x: 1133, y: -261}
+        - {x: 1139, y: -298}
+        - {x: 1144, y: -325}
+        - {x: 1151, y: -352}
+        - {x: 1158, y: -370}
+        - {x: 1165, y: -378}
+        - {x: 1179, y: -378}
+        - {x: 1186, y: -370}
+        - {x: 1190, y: -355}
+        - {x: 1193, y: -347}
+    - name: Platform
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1427
+        width: 368
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -184, y: 93}
+        - {x: -184, y: 0}
+        - {x: 184, y: 0}
+        - {x: 184, y: 93}
+    - name: Lower cave
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 536
+        width: 1235
+        height: 379
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1194, y: 0}
+        - {x: 1206, y: 1}
+        - {x: 1222, y: 4}
+        - {x: 1233, y: 14}
+        - {x: 1235, y: 18}
+        - {x: 1235, y: 59}
+        - {x: 1230, y: 76}
+        - {x: 1223, y: 98}
+        - {x: 1181, y: 215}
+        - {x: 1165, y: 273}
+        - {x: 1154, y: 301}
+        - {x: 1133, y: 309}
+        - {x: 1125, y: 332}
+        - {x: 1119, y: 339}
+        - {x: 1114, y: 339}
+        - {x: 1108, y: 327}
+        - {x: 1098, y: 284}
+        - {x: 1086, y: 262}
+        - {x: 1074, y: 259}
+        - {x: 1065, y: 269}
+        - {x: 1053, y: 295}
+        - {x: 1037, y: 325}
+        - {x: 1025, y: 328}
+        - {x: 1019, y: 315}
+        - {x: 1000, y: 215}
+        - {x: 986, y: 193}
+        - {x: 956, y: 197}
+        - {x: 931, y: 227}
+        - {x: 905, y: 304}
+        - {x: 894, y: 299}
+        - {x: 886, y: 279}
+        - {x: 880, y: 289}
+        - {x: 874, y: 300}
+        - {x: 870, y: 310}
+        - {x: 854, y: 316}
+        - {x: 844, y: 299}
+        - {x: 836, y: 280}
+        - {x: 821, y: 247}
+        - {x: 815, y: 246}
+        - {x: 787, y: 280}
+        - {x: 774, y: 287}
+        - {x: 766, y: 285}
+        - {x: 757, y: 278}
+        - {x: 738, y: 257}
+        - {x: 719, y: 232}
+        - {x: 693, y: 205}
+        - {x: 669, y: 193}
+        - {x: 646, y: 185}
+        - {x: 606, y: 190}
+        - {x: 590, y: 205}
+        - {x: 569, y: 261}
+        - {x: 560, y: 278}
+        - {x: 551, y: 294}
+        - {x: 540, y: 306}
+        - {x: 529, y: 308}
+        - {x: 521, y: 294}
+        - {x: 519, y: 255}
+        - {x: 518, y: 221}
+        - {x: 515, y: 123}
+        - {x: 511, y: 163}
+        - {x: 507, y: 220}
+        - {x: 504, y: 250}
+        - {x: 495, y: 275}
+        - {x: 484, y: 279}
+        - {x: 476, y: 274}
+        - {x: 468, y: 255}
+        - {x: 455, y: 184}
+        - {x: 447, y: 171}
+        - {x: 429, y: 154}
+        - {x: 410, y: 160}
+        - {x: 397, y: 181}
+        - {x: 384, y: 208}
+        - {x: 369, y: 255}
+        - {x: 355, y: 279}
+        - {x: 344, y: 277}
+        - {x: 339, y: 265}
+        - {x: 331, y: 212}
+        - {x: 320, y: 163}
+        - {x: 301, y: 143}
+        - {x: 287, y: 159}
+        - {x: 266, y: 243}
+        - {x: 249, y: 336}
+        - {x: 246, y: 359}
+        - {x: 232, y: 366}
+        - {x: 226, y: 352}
+        - {x: 220, y: 335}
+        - {x: 215, y: 314}
+        - {x: 198, y: 312}
+        - {x: 194, y: 308}
+        - {x: 189, y: 302}
+        - {x: 182, y: 280}
+        - {x: 160, y: 191}
+        - {x: 148, y: 161}
+        - {x: 137, y: 152}
+        - {x: 128, y: 157}
+        - {x: 117, y: 189}
+        - {x: 103, y: 263}
+        - {x: 92, y: 327}
+        - {x: 78, y: 371}
+        - {x: 70, y: 379}
+        - {x: 56, y: 379}
+        - {x: 52, y: 375}
+        - {x: 44, y: 355}
+        - {x: 35, y: 311}
+        - {x: 14, y: 199}
+        - {x: 9, y: 161}
+        - {x: 2, y: 110}
+        - {x: 0, y: 92}
+        - {x: 0, y: 30}
+        - {x: 7, y: 14}
+        - {x: 19, y: 6}
+        - {x: 26, y: 2}
+        - {x: 44, y: 0}
+        - {x: 92, y: 0}
+        - {x: 126, y: 1}
+        - {x: 298, y: 1}
+        - {x: 370, y: 2}
+        - {x: 370, y: 0}
+    - name: Tree
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 796
+        width: 576
+        height: 580
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 130}
+        - {x: 16, y: 213}
+        - {x: 37, y: 246}
+        - {x: 74, y: 281}
+        - {x: 116, y: 266}
+        - {x: 153, y: 271}
+        - {x: 163, y: 279}
+        - {x: 183, y: 301}
+        - {x: 206, y: 302}
+        - {x: 271, y: 330}
+        - {x: 288, y: 353}
+        - {x: 288, y: 404}
+        - {x: 257, y: 432}
+        - {x: 212, y: 433}
+        - {x: 215, y: 457}
+        - {x: 205, y: 477}
+        - {x: 189, y: 491}
+        - {x: 170, y: 499}
+        - {x: 132, y: 498}
+        - {x: 130, y: 534}
+        - {x: 125, y: 545}
+        - {x: 87, y: 572}
+        - {x: 57, y: 570}
+        - {x: 23, y: 560}
+        - {x: 6, y: 573}
+        - {x: -3, y: 580}
+        - {x: -55, y: 580}
+        - {x: -81, y: 560}
+        - {x: -131, y: 538}
+        - {x: -190, y: 499}
+        - {x: -210, y: 473}
+        - {x: -252, y: 472}
+        - {x: -270, y: 469}
+        - {x: -288, y: 444}
+        - {x: -288, y: 404}
+        - {x: -259, y: 369}
+        - {x: -256, y: 344}
+        - {x: -244, y: 332}
+        - {x: -225, y: 312}
+        - {x: -225, y: 287}
+        - {x: -217, y: 270}
+        - {x: -196, y: 249}
+        - {x: -155, y: 239}
+        - {x: -133, y: 248}
+        - {x: -107, y: 260}
+        - {x: -78, y: 245}
+        - {x: -63, y: 246}
+        - {x: -43, y: 188}
+        - {x: -51, y: 134}
+        - {x: -80, y: 86}
+        - {x: -140, y: 30}
+        - {x: -156, y: 14}
+        - {x: -149, y: 4}
+        - {x: -86, y: 0}
+        - {x: -55, y: 0}
+        - {x: -26, y: 9}
+        - {x: 12, y: 0}
+        - {x: 45, y: 0}
+        - {x: 53, y: 7}
+        - {x: 51, y: 18}
+        - {x: 18, y: 81}
+    - name: Tube
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 464
+        width: 186
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 237}
+        - {x: -93, y: 213}
+        - {x: -92, y: 212}
+        - {x: -71, y: 212}
+        - {x: -71, y: 0}
+        - {x: 73, y: 0}
+        - {x: 73, y: 212}
+        - {x: 93, y: 212}
+        - {x: 93, y: 237}
+    - name: Bad fish
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 458
+        width: 298
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: -70}
+        - {x: 138, y: -31}
+        - {x: 149, y: 8}
+        - {x: 149, y: 89}
+        - {x: 148, y: 93}
+        - {x: 51, y: 81}
+        - {x: -24, y: 143}
+        - {x: -105, y: 143}
+        - {x: -134, y: 113}
+        - {x: -149, y: 81}
+        - {x: -149, y: 63}
+        - {x: -120, y: 38}
+        - {x: -133, y: -21}
+        - {x: -115, y: -69}
+        - {x: 4, y: -143}
+        - {x: 32, y: -143}
+        - {x: 36, y: -141}
+        - {x: 80, y: -104}
+        - {x: 95, y: -97}
+        - {x: 81, y: -81}
+    - name: Blue rocks
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 36
+        width: 333
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 166.5, y: 16}
+        - {x: 166.5, y: 68}
+        - {x: 154.5, y: 86}
+        - {x: 116.5, y: 111}
+        - {x: 113.5, y: 126}
+        - {x: 94.5, y: 184}
+        - {x: 78.5, y: 216}
+        - {x: 4.5, y: 277}
+        - {x: -12.5, y: 286}
+        - {x: -37.5, y: 286}
+        - {x: -56.5, y: 282}
+        - {x: -60.5, y: 280}
+        - {x: -80.5, y: 230}
+        - {x: -89.5, y: 192}
+        - {x: -100.5, y: 214}
+        - {x: -122.5, y: 210}
+        - {x: -149.5, y: 150}
+        - {x: -156.5, y: 108}
+        - {x: -159.5, y: 60}
+        - {x: -166.5, y: 26}
+        - {x: -166.5, y: 9}
+        - {x: -153.5, y: 0}
+        - {x: -126.5, y: 0}
+        - {x: -66.5, y: 2}
+        - {x: 0.5, y: 2}
+        - {x: 32.5, y: 5}
+        - {x: 149.5, y: 9}
+    - name: Red saw
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 105
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 57.5}
+        - {x: -51.5, y: 33.5}
+        - {x: -52.5, y: 23.5}
+        - {x: -51.5, y: 20.5}
+        - {x: -57.5, y: 18.5}
+        - {x: -57.5, y: -39.5}
+        - {x: -38.5, y: -57.5}
+        - {x: 33.5, y: -57.5}
+        - {x: 57.5, y: -31.5}
+        - {x: 57.5, y: 48.5}
+        - {x: 35.5, y: 57.5}
+    - name: Dirt full
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 64
+        width: 368
+        height: 368
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 368}
+        - {x: 0, y: 0}
+        - {x: 368, y: 0}
+        - {x: 368, y: 367}
+        - {x: 367, y: 368}
+    - name: Blue saw
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 58
+        width: 208
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94, y: 89.5}
+        - {x: 65, y: 107.5}
+        - {x: -59, y: 107.5}
+        - {x: -61, y: 106.5}
+        - {x: -104, y: 81.5}
+        - {x: -104, y: -75.5}
+        - {x: -62, y: -107.5}
+        - {x: 84, y: -107.5}
+        - {x: 104, y: -68.5}
+        - {x: 104, y: 63.5}
+    - name: Dirt mid
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 80
+        width: 368
+        height: 184
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 184}
+        - {x: 0, y: 0}
+        - {x: 368, y: 0}
+        - {x: 368, y: 184}
+    - name: microphone
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 92
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Upper cave piece 2
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 56
+        width: 24
+        height: 106
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Upper cave piece
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 55
+        width: 25
+        height: 89
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
