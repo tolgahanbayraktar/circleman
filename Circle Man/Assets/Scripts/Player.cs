@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
 	private bool _isFacingRight;
 
 	public float maxSpeed = 8;
+	public float SpeedAccelerationOnGround = 10f;
+	public float SpeedAccelerationInAir = 5f;
 
 	public void Start ()
 	{
@@ -19,16 +21,18 @@ public class Player : MonoBehaviour
 	public void Update ()
 	{
 		HandledInput ();
+
+		var movementFactor = _controller.State.IsGrounded ? SpeedAccelerationOnGround : SpeedAccelerationInAir;
+
 		_controller.SetHorizontalForce (Mathf.Lerp (
 			_controller.Velocity.x,
 			_normalizedHorizontalSpeed * maxSpeed,
-			Time.deltaTime));
+			Time.deltaTime * movementFactor));
 	}
 
 	private void HandledInput ()
 	{
-		Debug.Log (_isFacingRight);
-
+		
 		if (Input.GetKey (KeyCode.D)) {
 			_normalizedHorizontalSpeed = 1;
 			if (!_isFacingRight)
@@ -39,6 +43,10 @@ public class Player : MonoBehaviour
 				Flip ();
 		} else {
 			_normalizedHorizontalSpeed = 0;
+		}
+
+		if (_controller.CanJump && Input.GetKeyDown (KeyCode.Space)) {
+			_controller.Jump ();
 		}
 
 	}
