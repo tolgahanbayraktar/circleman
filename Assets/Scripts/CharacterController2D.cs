@@ -23,19 +23,17 @@ public class CharacterController2D : MonoBehaviour
 	private GameObject _lastStandingOn;
 
 	public LayerMask PlatformMask;
-
 	public Vector2 Velocity{ get { return _velocity; } }
-
 	public ControllerStated State{ get; private set; }
-
 	public ControllerParameters2D DefaultParameters;
-
 	public ControllerParameters2D Parameters  { get { return _OverrideParameters ?? DefaultParameters; } }
-
 	public GameObject StandingOn{ get; private set; }
+	public bool HandleCollisions{ get; set;}
 
 	public void Awake ()
 	{
+		HandleCollisions = true;
+
 		State = new ControllerStated ();
 
 		_boxCollider = GetComponent<BoxCollider2D> ();
@@ -64,21 +62,25 @@ public class CharacterController2D : MonoBehaviour
 		var wasGrounded = State.IsCollidingBelow;
 
 		State.Reset ();
-		HandlePlatforms ();
 
-		CalculateRayOrigins ();
+		if (HandleCollisions) {
 
-		if (deltaMovement.y < 0 && wasGrounded)
-			HandleVerticalSlope (ref deltaMovement);
+			HandlePlatforms ();
 
-		if (Mathf.Abs (deltaMovement.x) > 0.001f)
-			MoveHorizontally (ref deltaMovement);
+			CalculateRayOrigins ();
+
+			if (deltaMovement.y < 0 && wasGrounded)
+				HandleVerticalSlope (ref deltaMovement);
+
+			if (Mathf.Abs (deltaMovement.x) > 0.001f)
+				MoveHorizontally (ref deltaMovement);
 		
-		MoveVertically (ref deltaMovement);
+			MoveVertically (ref deltaMovement);
 
-		CorrectHorizontalPlacement (ref deltaMovement, true);
-		CorrectHorizontalPlacement (ref deltaMovement, false);
-			
+			CorrectHorizontalPlacement (ref deltaMovement, true);
+			CorrectHorizontalPlacement (ref deltaMovement, false);
+		}
+
 		_transform.Translate (deltaMovement, Space.World);
 
 		// Debug.Log (Time.deltaTime);
@@ -294,6 +296,11 @@ public class CharacterController2D : MonoBehaviour
 		_velocity += force;
 	}
 
+	public void SetForce (Vector2 force)
+	{
+		_velocity = force;
+	}
+
 	public void SetVerticalForce (float y)
 	{
 		_velocity.y = y;
@@ -331,7 +338,7 @@ public class CharacterController2D : MonoBehaviour
 
 	public void OnTriggerExit2D (Collider2D other)
 	{
-		var parameters = other.gameObject.GetComponent<ControllerPhysicsVolume2D>();
+		var parameters = other.gameObject.GetComponent<ControllerPhysicsVolume2D> ();
 		if (parameters == null)
 			return;
 

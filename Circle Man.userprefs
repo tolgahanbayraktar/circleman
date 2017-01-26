@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ControllerState2D.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="48" Column="30" />
-      <File FileName="Assets/Scripts/CharacterController2D.cs" Line="142" Column="16" />
-      <File FileName="Assets/Scripts/ControllerState2D.cs" Line="14" Column="2" />
-      <File FileName="Assets/Scripts/ControllerParameters2D.cs" Line="25" Column="37" />
+      <File FileName="Assets/Scripts/Player.cs" Line="30" Column="3" />
+      <File FileName="Assets/Scripts/GameHUD.cs" Line="22" Column="32" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="21" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
