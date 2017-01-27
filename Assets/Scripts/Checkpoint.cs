@@ -25,4 +25,19 @@ public class Checkpoint : MonoBehaviour
 	{
 		_listeners.Add (listener);
 	}
+
+	public void PlayerHitCheckpoint ()
+	{
+		// Yazılacak yazı ve Resources'daki skin adı
+		//FloatingText.Show ("Checkpoint!", "CheckpointText", new CenteredTextPositioner (.5f));
+
+		StartCoroutine(PlayerHitCheckPointCo(LevelManager.Instantiate.CurrentTimeBonus));
+	}
+
+	public IEnumerator PlayerHitCheckPointCo (int bonus)
+	{
+		FloatingText.Show ("Checkpoint!", "CheckpointText", new CenteredTextPositioner (.5f));
+		yield return new WaitForSeconds (.5f);
+		FloatingText.Show (string.Format ("+{0} stime bonus!", bonus), "CheckPointText", new CenteredTextPositioner (.5f));
+	}
 }

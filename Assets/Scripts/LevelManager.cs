@@ -71,7 +71,10 @@ public class LevelManager : MonoBehaviour
 		if (distanceToNextCheckpoint >= 0)
 			return;
 
+		// Bir sonraki checkpointe ulaştık 
 		_currentCheckpointIndex++;
+
+		_checkpoints [_currentCheckpointIndex].PlayerHitCheckpoint ();
 
 		GameManager.Instance.AddPoints (CurrentTimeBonus);
 		_savedPoints = GameManager.Instance.points;

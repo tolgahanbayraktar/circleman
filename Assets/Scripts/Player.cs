@@ -69,7 +69,10 @@ public class Player : MonoBehaviour
 	{
 		Instantiate (OuchEffect, transform.position, transform.rotation);
 		Healt -= damage;
-		Debug.Log (Healt);
+
+		FloatingText.Show (string.Format ("-{0}", damage), "PlayerTakeDamageText",
+			new FromWorldPointTextPositioner (Camera.main, transform.position, 2f, 60f));
+		
 		if (Healt <= 0)
 			LevelManager.Instantiate.KillPlayer ();
 	}
